@@ -1,2 +1,2 @@
 # TESTVersion
-А вот и наш проект на GitHub (не бейте палкой, лучше уж чем-нибудь острым).
+This is our first project (also it is test version, we will continue developing this project) 
