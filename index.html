@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Интернет-магазин ЦТ/Главная</title>
+    <meta charset="utf-8">
+
+    <!-- Linking styles -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+
+    <!-- Linking scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>   
+    <script src="js/main.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+
+        <header><!-- Defining the header section of the page -->
+
+            <nav><!-- Defining the navigation menu -->
+                <ul>
+                    <li class="selected"><a href="#">Главная</a></li>
+                    <li><a href="#">Специальное</a></li>
+                    <li><a href="#">Все продукты</a></li>
+                    <li> <a class="button" href="page3.html" target="_blank"
+                         href="#">Свяжитесь с нами</a></li>
+                    <li> 
+                    <a class="button" href="page2.html" target="_blank"
+                     href="#">О нас </a></li> 
+
+                </ul>
+            </nav>
+
+
+            <div class="top_head"><!-- Defining the top head element -->
+                <div class="logo"><!-- Defining the logo element -->
+            
+                    </a>
+                </div>
+
+                <section id="search"><!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" onfocus="if (this.value =='Search..' ) this.value=''" onblur="if (this.value=='') this.value='Поиск..'" value="Поиск.." name="q">
+                        <input type="submit" value="Поиск">
+                    </form>
+            </div>
+
+            <section id="submenu"><!-- Defining the sub menu -->
+                <ul>
+                    <li><a href="#">Каталог</a></li>
+                </ul>
+            </section>
+
+        </header>
+
+        <div id="slider"><!-- Defining the main content section -->
+
+        <!-- Promo slider -->
+            <section id="slider-wrapper">
+                <div id="slider" class="nivoSlider">
+                    <img style="display: none;" src="images/promo1.jpg" alt="" title="#htmlcaption-1">
+                    <img style="display: none;" src="images/promo2.jpg" alt="" title="#htmlcaption-2">
+                    <img style="display: none;" src="images/promo3.jpg" alt="" title="#htmlcaption-3">
+                </div>
+                <div id="htmlcaption-1" class="nivo-html-caption">
+                    <h5 class="p2">Добро пожаловать в наш магазин</h5>
+                </div>
+                <div id="htmlcaption-1" class="nivo-html-caption">
+                    <h5 class="p2">This is promo area</h5>
+                    <p>Put any description here</p>
+                </div>
+                <div id="htmlcaption-2" class="nivo-html-caption">
+                    <h5 class="p2">Where you can add any feature products</h5>
+                    <p>Put any description here</p>
+                </div>
+                <div id="htmlcaption-3" class="nivo-html-caption">
+                    <h5 class="p2">Or something else</h5>
+                    <p>Put any description here</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="main"><!-- Defining submain content section -->
+            <section id="content"><!-- Defining the content section #2 -->
+                <div id="left">
+                    <h3>Последние появившиеся товары</h3>
+                    <ul>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post1.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Atomic Heart</a>
+                                <p></p>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽500</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post2.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Hogwarts Legacy</a>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽450</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post3.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Resident Evil 4: Remake</a>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽3500</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post4.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Storyteller</a>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽250</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post5.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Returnal</a>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽2800</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post6.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Grappin</a>
+                                <div class="price">
+                                    <span class="st">Цена:</span><strong>₽389.00</strong>
+                                </div>
+                                <div class="actions">
+                                    <a href="#">Детали</a>
+                                    <a href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="right">
+                    <h3>Top sells</h3>
+                    <ul>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/Post7.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Batman Arkham Knight</a>
+                                <div class="price">
+                                    <span class="usual">₽550.00 </span>&nbsp;
+                                    <span class="special">₽350.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/Post8.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Batman Arkham City</a>
+                                <div class="price">
+                                    <span class="usual">₽450 </span>&nbsp;
+                                    <span class="special">₽300</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/Post9.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Transformers:Fall of Cybertton</a>
+                                <div class="price">
+                                    <span class="usual">₽650 </span>&nbsp;
+                                    <span class="special">₽450</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post3.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Resident Evil 4: Remake</a>
+                                <div class="price">
+                                    <span class="usual">₽4000 </span>&nbsp;
+                                    <span class="special">₽3500</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post2.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Hogwarts Legacy</a>
+                                <div class="price">
+                                    <span class="usual">₽700 </span>&nbsp;
+                                    <span class="special">₽450</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img"><a href="#"><img alt="" src="images/post1.jpg"></a></div>
+                            <div class="info">
+                                <a class="title" href="#">Atomic Heart</a>
+                                <div class="price">
+                                    <span class="usual">₽650 </span>&nbsp;
+                                    <span class="special">₽500</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+
+    <footer><!-- Defining the footer section of the page -->
+        <div id="privacy">
+            Banana template © 2023 <a class="link" href="http://www.script-tutorials.com/">Privacy Policy</a><br />
+            <a class="link" href="http://www.script-tutorials.com/creating-new-html5css3-single-page-layout-e-store/">Template by Banana</a>
+        </div>
+    </footer>
+
+</div>
+
+</body></html>
